@@ -12,13 +12,12 @@ community build applications and use free, public APIs quickly and easily. Pull 
 
 Current API entry format:
 
-| API | Description | Auth | HTTPS | CORS | Call this APIin-postman/creating-run-button/) | 
+| API | Description | Auth | HTTPSin-postman/creating-run-button/) | 
 
 Example entry:
 
 ```
-| [NASA](https://api.nasa.gov) | NASA data, including imagery | No | Yes | Yes | [ to run_
-* `User-Agent` - _the name of the header to be sent with requests to the API_
+| [NASA](https://api.nasa.gov) | NASA data, including imagery | No | Yes | Yes* `User-Agent` - _the name of the header to be sent with requests to the API_
 
 \* Currently, the only accepted inputs for the `CORS` field are as follows:
 
@@ -42,4 +41,5 @@ After you've created a branch on your fork with your changes, it's time to [make
 * Continue to follow the alphabetical ordering that is in place per section.
 * Each table column should be padded with one space on either side.
 * The Description should not exceed 100 characters. <!-- personal note: I've found that keeping descriptions around 60-80 chars reads much better in the rendered table -->
+* Aim for descriptions that are clear and specific — avoid vague phrases like "various data" or "lots of features". <!-- personal note: this trips me up when I'm scanning the list looking for something useful -->
 * If an API seems to fall into multiple categori
