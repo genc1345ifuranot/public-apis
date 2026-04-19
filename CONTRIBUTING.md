@@ -6,14 +6,7 @@ community build applications and use free, public APIs quickly and easily. Pull 
 >
 > Please make sure the API you want to add has full, free access or at least a free tier and does not depend on the purchase of a device/service before submitting.  An example that would be rejected is an API that is used to control a smart outlet - the API is free, but you must purchase the smart device.
 >
-> Thanks for understanding! :)
-
-## Formattingurrent API entry format:
-
-Agent` - _the name of the header to be sent with requestsn\* Currently, the only accepted inputs for the `CORS` field are as follows:
-
-* `Yes` - _the API supports CORS_
-* `No` - _the API does not support CORS_
+> Thanks for understanding! :)\nAgent` - _the name the `CORS` field are as _the API does not support CORS_
 * `Unknown` - _it is unknown if the API supports CORS_
 
 \* For the Call this API column, add a link to a Postman collection. You may need to [create a collection](https://learning.postman.com/docs/getting-started/first-steps/creating-the-first-collection/) to create a Run in Postman Button. 
@@ -35,3 +28,4 @@ After you've created a branch on your fork with your changes, it's time to [make
 * Aim for descriptions that are clear and specific — avoid vague phrases like "various data" or "lots of features". <!-- personal note: this trips me up when I'm scanning the list looking for something useful -->
 * If an API seems to fall into multiple categories, choose the most specific one.
 * When in doubt about which category to place an API, pick the one that best matches the API's *primary* use case, not a secondary feature it happens to support. <!-- personal note: e.g. a weather API that also returns location data belongs in Weather, not Geocoding -->
+* Before submitting, test the API endpoint yourself to confirm it is still active and returning expected responses. <!-- personal note: I've wasted time reviewing PRs for APIs that were already dead -->
