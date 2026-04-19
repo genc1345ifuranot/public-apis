@@ -8,11 +8,9 @@ community build applications and use free, public APIs quickly and easily. Pull 
 >
 > Thanks for understanding! :)
 
-## Formatting
+## Formattingurrent API entry format:
 
-Current API entry format:
-
-| API | Description | Auth | HTTPSin-postman/creating-run-button/)| [NASA](https://api.nasa.gov) | NASA data, including imagery | No | Yes | Yes* `User-Agent` - _the name of the header to be sent with requestsn\* Currently, the only accepted inputs for the `CORS` field are as follows:
+Agent` - _the name of the header to be sent with requestsn\* Currently, the only accepted inputs for the `CORS` field are as follows:
 
 * `Yes` - _the API supports CORS_
 * `No` - _the API does not support CORS_
@@ -35,5 +33,5 @@ After you've created a branch on your fork with your changes, it's time to [make
 * Each table column should be padded with one space on either side.
 * The Description should not exceed 100 characters. <!-- personal note: I've found that keeping descriptions around 60-80 chars reads much better in the rendered table -->
 * Aim for descriptions that are clear and specific — avoid vague phrases like "various data" or "lots of features". <!-- personal note: this trips me up when I'm scanning the list looking for something useful -->
-* If an API seems to fall into multiple categori
+* If an API seems to fall into multiple categories, choose the most specific one.
 * When in doubt about which category to place an API, pick the one that best matches the API's *primary* use case, not a secondary feature it happens to support. <!-- personal note: e.g. a weather API that also returns location data belongs in Weather, not Geocoding -->
